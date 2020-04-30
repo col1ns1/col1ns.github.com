@@ -62,21 +62,101 @@ span{
     padding: 33px 0 0 0;
 }
 
-
-.zalupa{
-    width: 20px;
-    height: 20px;
-    background: black;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    padding: 40px;
-    display: none;
-}
-#silan:hover .zalupa{
+.strt_pg {
     display: block;
+    width: 100%;
+    height: 791px;
+    background: hotpink;
+}
+#up_line{
+  display: inline-block;
+  background: lawngreen;
+  margin-left: 540px;
+  margin-top: 260px;
+  margin-right: 115px;
+  width: 205px;
+}
+#dwn_line1{
+    display: block;
+    background: indigo;
+    margin-left: 390px;
+    margin-right: 1000px;
+    margin-top: 9px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 63px;
+}
+#dwn_line2{
+    display: block;
+    background: indigo;
+    margin-left: 450px;
+    margin-right: 1090px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 63px;
+
+}
+
+#dln{
+
+}
+.btnshp {
+    display: block;
+    background: #c61e6a;
+    margin-left: 539px;
+    margin-right: 1186px;
+    margin-top:  45px;
+    height: 50px;
+    color: white;
+
+}
+#shp {
+    padding: 17px;
+    margin-left: 30px;
+    margin-bottom: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+.scnd_pg {
+    display: block;
+    width: 100%;
+    height: 964px;
+    background: white;
+}
+#ft_prct {
+    display: inline-block;
+    margin-left: 787px;
+    margin-top: 148px;
+    background: #c61e6a;
+    width: 347px;
+    height: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+#frstblck{
+    display: block;
+    width: 360px;
+    height: 451px;
+    margin-left: 392px;
+    margin-top: 86px;
+    background: red;
+}
+#scndblck{
+    display: inline-block;
+    width: 360px;
+    height: 451px;
+    margin-left: 30px;
+    margin-top: 860px;
+    background: mediumturquoise;
+}
+#thrdblck{
+    display: inline-block;
+    width: 360px;
+    height: 451px;
+    margin-left: 30px;
+    margin-top: 86px;
+    background: teal;
 }
