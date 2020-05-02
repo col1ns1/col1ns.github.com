@@ -9,16 +9,14 @@ span{
     display: block;
     height: 30px;
     width: 100%;
-    background: black;
+    background: rgb(254,247,246);
 }
 .nav_bar{
     display: block;
     width: 100%;
     height: 80px;
-    background: tomato;
 }
 .container{
-    background: violet;
     display: block;
     width: 59%;
     height: 100%;
@@ -37,15 +35,24 @@ span{
     
    
 }
+#to4ka {
+    width: fit-content;
+    height: fit-content;
+    white-space: nowrap;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    transform: translateY(50%);
+    color: rgb(255,83,83)
+}
 .useless{
     float: right;
     display: inline-block;
-    background: yellow;
-    width: 71%;
+   width: 71%;
     height: 100%;
 }
 .texts{
-    background: teal;
     width: 60%;
     height: 100%;
 
@@ -66,7 +73,7 @@ span{
     display: block;
     width: 100%;
     height: 791px;
-    background: hotpink;
+    background-image: url('css/fone.jpg');
 }
 #up_line{
   display: inline-block;
@@ -101,12 +108,13 @@ span{
 }
 .btnshp {
     display: block;
-    background: #c61e6a;
-    margin-left: 539px;
+    background: rgb(255,83,83);
+    margin-left: 547px;
     margin-right: 1186px;
     margin-top:  45px;
     height: 50px;
     color: white;
+    border-radius: 10px;
 
 }
 .shp {
@@ -120,7 +128,6 @@ span{
     display: block;
     width: 100%;
     height: 964px;
-    background: white;
 }
 #ft_prct {
     display: inline-block;
@@ -137,17 +144,16 @@ span{
 
 .blck {
     display: inline-block;
-    width: 360px;
-    height: 451px;
-    margin: 0px 23px 0 0px;
-    background: crimson;
+    width: 339px;
+    height: 510px;
+    margin: 0px 57px 0 37px;
 
 }
 .lnblck {
     display: block;
-    width: 1170px;
-    height: 550px;
-    margin-left: 391px;
+    width: 1400px;
+    height: 560px;
+    margin-left: 301px;
     margin-top: 85px;
 }
 
@@ -155,7 +161,7 @@ span{
     display: block;
     width: 100%;
     height: 630px;
-    background: wheat;
+    background: rgb(247, 236, 217);
 }
 
 .thrd_pg_blck {
@@ -186,17 +192,17 @@ span{
 }
 #thrd_pg_btn {
     display: block;
-    background: #c61e6a;
+    background: rgb(255,83,83);
     height: 50px;
     color: white;
     margin: 50px 192px 12px 188px;
+    border-radius: 10px;
 }
 
 .frth_pg {
     display: block;
     width: 100%;
     height: 3782px;
-    background: tomato;
 }
 
 #mst_pplr {
@@ -205,7 +211,6 @@ span{
     height: 57px;
     color: black;
     margin: 140px 500px 50px 460px;
-    background: blue;
     font-size: 34px;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
@@ -213,28 +218,160 @@ span{
 }
 .frth_scrn_ln_blck {
     display: inline-block;
-    width: 261px;
-    height: 341px;
-    margin-left: 29px;
+    width: 235px;
+    height: 340px;
+    margin-left: 55px;
     margin-top: 15px;
-    background: darkblue;
 }
 .frst {
     display: block;
-    width: 1500px;
-    height: 850px;
-    background: blueviolet;
+    width: 1200px;
+    height: 610px;
     margin: 0px 200px 0 360px;
 }
-.rwp {
-    
+
+.scnd {
+    display: inline-block;
+    width: 1200px;
+    height: 200px;
+    margin: 0px 200px 0 360px;
+}
+
+.frst_bl_prdct {
     display: inline-block;
     width: 150px;
-    height: 35px;
-    margin-left: 100px;
-    margin-top: 25px;
-    background: darkblue;
-    font-size: 17px;
+    height: 25px;
+    margin-left: 106px;
+    margin-top: 19px;
+    font-size: 15.5px;
+}
+.scnd_bl_prdct {
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    margin-left: 142px;
+    margin-top: 19px;
+    font-size: 15.5px;
+}
+.thrd_bl_prdct {
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    margin-left: 144px;
+    margin-top: 19px;
+    font-size: 15.5px;
+}
+.frth_bl_prdct {
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    margin-left: 144px;
+    margin-top: 19px;
+    font-size: 15.5px;
+}
+
+.stars {
+    display: inline-block;
+    width: 75px;
+    height: 30;
+    margin: 0px 85px 0 132px;
+}
+.price_scnd {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    margin: 4px 103px 0 138.5px;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.thrd {
+    display: inline-block;
+    width: 1200px;
+    height: 400px;
+    margin: 0px 200px 0 365px;
+}
+.blck_rklm {
+    display: inline-block;
+    width: 263px;
+    height: 166px;
+    margin: 120px 0px 0px 25px;
+}
+a {
     color: white;
+    text-decoration: none;
+
+}
+
+.fifth {
+    display: inline-block;
+    width: 1300px;
+    height: 1200px;
+    margin: 0px 200px 0 360px;
+    background: black;
+}
+#trnd_prdct {
+    display: inline-block;
+    width: 400px;
+    height: 57px;
+    color: black;
+    margin: 30px 500px 50px 410px;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.frst1 {
+    display: block;
+    width: 1200px;
+    height: 500px;
+    margin: 0px 200px 0 360px;
+
+}
+
+.scnd1 {
+    display: inline-block;
+    width: 1200px;
+    height: 140px;
+    margin: 0px 200px 0 360px;
+}
+.frst2 {
+    display: block;
+    width: 1200px;
+    height: 380px;
+    margin: 0px 200px 0 360px;
+
+}
+
+.scnd2 {
+    display: inline-block;
+    width: 1200px;
+    height: 200px;
+    margin: 0px 200px 0 360px;
+
+}
+.price_frst {
+display: inline-block;
+    width: 70px;
+    height: 25px;
+    margin: 0px 167px 0 192.5px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.frst_prdct_nm {
+    display: inline-block;
+    width: 170px;
+    height: 18px;
+    margin: 23px 135px 0 135px;
+    font-size: 18px;
+
+}
+.stars1 {
+    display: inline-block;
+    width: 75px;
+    height: 30;
+    margin: 9px 170px 0 185px;
 
 }
