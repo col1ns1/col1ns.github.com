@@ -33,6 +33,7 @@ span{
     font-weight: 600;
     transform: translateY(50%);
     
+    
    
 }
 #to4ka {
@@ -95,12 +96,12 @@ span{
 }
 #dwn_line2{
     display: block;
+    width: 400px;
     margin-left: 450px;
     margin-right: 1090px;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 63px;
-
 }
 
 #dln{
@@ -108,8 +109,9 @@ span{
 }
 .btnshp {
     display: block;
+    width: 170px;
     background: rgb(255,83,83);
-    margin-left: 547px;
+    margin-left: 530px;
     margin-right: 1186px;
     margin-top:  45px;
     height: 50px;
@@ -202,7 +204,7 @@ span{
 .frth_pg {
     display: block;
     width: 100%;
-    height: 3782px;
+    height: 782px;
 }
 
 #mst_pplr {
@@ -374,4 +376,11 @@ display: inline-block;
     height: 30;
     margin: 9px 170px 0 185px;
 
+}
+.niz {
+    display: block;
+    width: 100%;
+    height: 400px;
+    background: rgb(231,222,212);
+    
 }
